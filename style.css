@@ -1,0 +1,105 @@
+img.logo{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+ul.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+h1.accroche{
+    background-image: url(images/image_fixe_accueil.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    color: #F6E7E7;
+}
+
+div.presentation{
+    display: flex;
+    text-align: center;
+}
+div.bienvenue{
+    margin: auto;
+}
+
+div.separateur{
+    padding: 1em;
+}
+
+div.presentation2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display:block;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E294A8 ;
+    padding : 20px;
+    text-align: center;
+}
+
+div.reseaux{
+    padding-top: 7%;
+    padding-left: 10%;
+    text-align: center;
+    
+}
+
+div.carteFooter {
+    padding-right: 5%;
+}
+
+div.adresse{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+button{
+    background-color: black;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-control-prev {
+    background-color: #F7EB84;
+}
+
+.carousel-control-next {
+    background-color: #F7EB84;
+}
+
+h1.carrousel{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+div.separateur-footer {
+    margin-top: 100px;
+}
+
+
+  
+ 
