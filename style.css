@@ -1,0 +1,232 @@
+img.logo{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+ul.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-left: 10%;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+p.accroche{
+    background-image: url(images/image_fixe_accueil.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: #F6E7E7;
+}
+
+p.presentation{
+    background-image: url(images/infrastructure.png);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: #F6E7E7;
+}
+
+p.pres{
+    background-image: url(images/Motivation-3.png);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: #F6E7E7;
+    background-repeat: no-repeat;
+}
+
+p.prez{
+    background-image: url(images/contact.png);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: #F6E7E7;
+    background-repeat: no-repeat;
+}
+
+p.prezz{
+    background-image: url(images/contact.png);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: #F6E7E7;
+    background-repeat: no-repeat;
+}
+
+div.presentation{
+    display: flex;
+    text-align: center;
+}
+div.bienvenue{
+    margin: auto;
+}
+
+div.separateur{
+    padding: 1em;
+}
+
+div.presentation2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display:block;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E294A8 ;
+    padding : 20px;
+    text-align: center;
+}
+
+div.reseaux{
+    padding-top: 7%;
+    padding-left: 10%;
+    text-align: center;
+    
+}
+
+div.carteFooter {
+    padding-right: 5%;
+}
+
+div.adresse{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+button{
+    background-color: black;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-control-prev {
+    background-color: #F7EB84;
+}
+
+.carousel-control-next {
+    background-color: #F7EB84;
+}
+
+h1.carrousel{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+div.separateur-footer {
+    margin-top: 100px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 25%;
+  position: relative;
+  height: 35em;
+  perspective: 150em;
+}
+.card__side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 35em;
+  backface-visibility: hidden;
+  transition: all 0.6s ease;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
+}
+.card__side--front {
+  background-color: #FFF;
+}
+.card__side--back {
+  color: #FFF;
+  transform: rotateY(180deg);
+}
+.card__side--back-1 {
+  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+}
+.card__side--back-2 {
+  background-image: linear-gradient(to right bottom, #2998FF, #5643FA);
+}
+.card__side--back-3 {
+  background-image: linear-gradient(to right bottom, #FFB900, #FF7730);
+}
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+.card:hover .card__side--back {
+  transform: rotate(0);
+}
+.card__description {
+  text-transform: uppercase;
+  text-align: center;
+  display: table;
+  width: 100%;
+  height: 35em;
+}
+
+p.machines {
+  background-image: url(images/matériel.jpg);
+  vertical-align: middle;
+  display: table-cell;
+  background-repeat: no-repeat;
+}
+
+p.casiers {
+  background-image: url(images/casiers.jpg);
+ 
+  vertical-align: middle;
+  display: table-cell;
+}
+
+p.detente {
+  background-image: url(images/detente.jpg);
+  vertical-align: middle;
+  display: table-cell;
+  background-repeat: no-repeat;
+}
+
+p.vestiaires{
+  background-image: url(images/vestiaire.png);
+  vertical-align: middle;
+  display: table-cell;
+}
