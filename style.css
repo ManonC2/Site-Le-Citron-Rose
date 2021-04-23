@@ -182,13 +182,13 @@ div.separateur-footer {
   transform: rotateY(180deg);
 }
 .card__side--back-1 {
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-image: linear-gradient(to right bottom, #F7EB84, #E294A8);
 }
 .card__side--back-2 {
-  background-image: linear-gradient(to right bottom, #2998FF, #5643FA);
+  background-image: linear-gradient(to right bottom, #F7EB84, #E294A8);
 }
 .card__side--back-3 {
-  background-image: linear-gradient(to right bottom, #FFB900, #FF7730);
+  background-image: linear-gradient(to right bottom, #F7EB84, #E294A8);
 }
 .card:hover .card__side--front {
   transform: rotateY(-180deg);
@@ -229,4 +229,29 @@ p.vestiaires{
   background-image: url(images/vestiaire.png);
   vertical-align: middle;
   display: table-cell;
+}
+
+p.accueil_marie{
+  text-align: center;
+}
+
+img.image_accueil{
+  text-align: center;
+  display: table;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+div.coaches {
+  display: flex;
+}
+
+div.coaches p {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+div.coaches img{
+  margin: 10px;
 }
