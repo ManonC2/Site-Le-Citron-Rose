@@ -1,3 +1,8 @@
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+
 img.logo{
     display: flex;
     text-align: center;
@@ -11,16 +16,8 @@ header{
     margin: auto;
 }
 
-ul.menu{
-    display: flex;
-    justify-content: space-around;
-    margin-right: 10%;
-    margin-left: 10%;
-    list-style-type: none;
-    padding-bottom: 20px;
-}
-
 p.accroche{
+  font-family: 'Bebas Neue', cursive;
     background-image: url(images/image_fixe_accueil.jpg);
     background-attachment: fixed;
     text-align: center;
@@ -30,6 +27,7 @@ p.accroche{
 }
 
 p.presentation{
+  font-family: 'Bebas Neue', cursive;
     background-image: url(images/infrastructure.png);
     background-attachment: fixed;
     text-align: center;
@@ -39,6 +37,7 @@ p.presentation{
 }
 
 p.pres{
+    font-family: 'Bebas Neue', cursive;
     background-image: url(images/Motivation-3.png);
     background-attachment: fixed;
     text-align: center;
@@ -49,6 +48,7 @@ p.pres{
 }
 
 p.prez{
+  font-family: 'Bebas Neue', cursive;
     background-image: url(images/contact.png);
     background-attachment: fixed;
     text-align: center;
@@ -59,6 +59,7 @@ p.prez{
 }
 
 p.prezz{
+  font-family: 'Bebas Neue', cursive;
     background-image: url(images/contact.png);
     background-attachment: fixed;
     text-align: center;
@@ -113,13 +114,6 @@ div.adresse{
     padding-top: 2%;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-
-
 button{
     background-color: black;
 }
@@ -137,6 +131,7 @@ button{
 }
 
 h1.carrousel{
+  font-family: 'Bebas Neue', cursive;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -183,6 +178,7 @@ div.separateur-footer {
 }
 .card__side--back-1 {
   background-image: linear-gradient(to right bottom, #F7EB84, #E294A8);
+
 }
 .card__side--back-2 {
   background-image: linear-gradient(to right bottom, #F7EB84, #E294A8);
@@ -197,11 +193,25 @@ div.separateur-footer {
   transform: rotate(0);
 }
 .card__description {
+  font-family: 'Bebas Neue', cursive;
   text-transform: uppercase;
   text-align: center;
   display: table;
   width: 100%;
   height: 35em;
+}
+
+div.arriere_carte {
+    text-align: center;
+  display: table;
+  width: 100%;
+  height: 35em;
+  
+}
+
+div.arriere_carte p {
+  vertical-align: middle;
+  display: table-cell;
 }
 
 p.machines {
@@ -254,4 +264,40 @@ div.coaches p {
 
 div.coaches img{
   margin: 10px;
+}
+
+div.contact {
+  display: flex;
+  justify-content: space-around;
+  padding : 40px;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+a.menu{
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+  padding: 10px; 
+  padding-left: 30px;
+  padding-right: 30px; 
+  font-size : 1.5em;
+}
+
+
+
+a.menu:hover{
+  color: white;
+  background-color: #E294A8;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 30px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
