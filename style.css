@@ -102,17 +102,33 @@ div.bienvenue{
   margin: auto;
 }
 
+p.bienvenue{
+  padding: 40 px;
+  margin: 40px;
+}
+
 div.separateur{
   padding: 1em;
 }
 
 div.presentation2{
-  width: 80%;
+  width: 70%;
   margin: auto;
   text-align: center;
   display:block;
   padding-top: 40px;
   padding-bottom: 50px;
+}
+
+div.carrousel{
+  background-color: #F7EB84;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1.carrousel{
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
 }
 
 footer{
@@ -153,11 +169,7 @@ div.adresse{
   border-radius: 60px;
 }
 
-h1.carrousel{
-  font-family: 'Bebas Neue', cursive;
-  text-align: center;
-  padding-bottom: 50px;
-}
+
 
 div.separateur-footer {
   margin-top: 100px;
@@ -176,8 +188,8 @@ aside{
    position: fixed;
    right: 0;
    border-end-start-radius: 60px;
-   border-top-left-radius: 60px;
-   background-color: #F7EB84;
+   border-top-left-radius: 60px; 
+   background-color: #F7EB84; 
 }
 
 .cards {
