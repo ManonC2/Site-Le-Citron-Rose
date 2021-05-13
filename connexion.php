@@ -13,7 +13,7 @@
 
     <body>
         <div>
-            <img src="images/logo2.png" alt="Logo Le Citron Rose">
+            <img class="connexion" src="images/logo2.png" alt="Logo Le Citron Rose">
         </div>
 
     </body>

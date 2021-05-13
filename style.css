@@ -351,6 +351,12 @@ h2{
   text-align: center;
 }
 
+img.connexion {
+  display: flex;
+  margin: auto;
+  padding-top: 5%;
+}
+
 img.image_accueil{
   text-align: center;
   display: table;
