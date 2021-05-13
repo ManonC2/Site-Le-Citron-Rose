@@ -5,7 +5,7 @@ a.menu{
   padding: 10px; 
   padding-left: 30px;
   padding-right: 30px; 
-  font-size : 1.5em;
+  font-size : 1.6em;
 }
 
 a.menu:hover{
@@ -24,6 +24,7 @@ body {
 }
 
 header{
+  margin-top: 10px;
   text-align: center;
 }
 
@@ -85,13 +86,23 @@ p.prezz{
   text-shadow: -1px -1px white, 1px 1px #333;
   font-size: 2em;
   font-family: 'Bebas Neue', cursive;
-  background-image: url(images/contact.png);
+  background-image: url(images/bas-prix.png);
   background-attachment: fixed;
   text-align: center;
   padding-top: 15%;
   padding-bottom: 15%;
   color: #F6E7E7;
   background-repeat: no-repeat;
+}
+
+table{
+  width: 80%;
+  margin: auto;
+  border: 3px;
+}
+
+td.prix{
+  text-align: right;
 }
 
 div.presentation{
@@ -126,8 +137,17 @@ div.carrousel{
   padding-bottom: 50px;
 }
 
+h1{
+  font-family: 'Bebas Neue', cursive;
+  color:#E294A8;
+  text-shadow: -1px -1px white, 1px 1px #333;
+  text-align: center;
+}
+
 h1.carrousel{
   font-family: 'Bebas Neue', cursive;
+  color:#FFF;
+  text-shadow: -1px -1px white, 1px 1px #333;
   text-align: center;
 }
 
@@ -160,12 +180,13 @@ div.adresse{
 }
 
 .carousel-control-prev {
-  background-color: #F7EB84;
+  background-image: linear-gradient(to right bottom, #F7EB84, #E294A8);
   border-radius: 60px;
+  
 }
 
 .carousel-control-next {
-  background-color: #F7EB84;
+  background-image: linear-gradient(to right bottom, #F7EB84, #E294A8);
   border-radius: 60px;
 }
 
@@ -249,16 +270,23 @@ div.arriere_carte {
   text-align: center;
   display: table;
   width: 100%;
-  height: 35em;
+  height: 35em; 
   
 }
 
 div.arriere_carte p {
   vertical-align: middle;
+  padding-right: 10px;
+  padding-left: 10px;
   display: table-cell;
 }
 
 p.machines {
+  font-family: 'Bebas Neue', cursive;
+  color:#FFF;
+  text-shadow: -1px -1px white, 1px 1px #333;
+  font-size: 1.6em;
+  text-align: center;
   background-image: url(images/matériel.jpg);
   vertical-align: middle;
   display: table-cell;
@@ -267,12 +295,21 @@ p.machines {
 
 p.casiers {
   background-image: url(images/casiers.jpg);
- 
+  font-size: 1.6em;
+  font-family: 'Bebas Neue', cursive;
+  color:#FFF;
+  text-shadow: -1px -1px white, 1px 1px #333;
+  text-align: center;
   vertical-align: middle;
   display: table-cell;
 }
 
 p.detente {
+  font-size: 1.6em;
+  font-family: 'Bebas Neue', cursive;
+  color:#FFF;
+  text-shadow: -1px -1px white, 1px 1px #333;
+  text-align: center;
   background-image: url(images/detente.jpg);
   vertical-align: middle;
   display: table-cell;
@@ -280,12 +317,37 @@ p.detente {
 }
 
 p.vestiaires{
+  font-size: 1.6em;
+  font-family: 'Bebas Neue', cursive;
+  color:#FFF;
+  text-shadow: -1px -1px white, 1px 1px #333;
+  text-align: center;
   background-image: url(images/vestiaire.png);
   vertical-align: middle;
   display: table-cell;
 }
 
-p.accueil_marie{
+div.horaires{
+  text-align: center;
+  margin-top:40px;
+  margin-bottom:40px;
+  background-color: #E294A8;
+}
+
+div.horaires p {
+  margin: 40px;
+  padding-bottom: 40px;
+  font-size: 1.5em;
+}
+
+div.horaires h1 {
+  padding-top: 40px;
+  color: #F6E7E7;
+}
+
+h2{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5em;
   text-align: center;
 }
 
@@ -320,10 +382,4 @@ ul{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  
 }
-
-
-
-
-
