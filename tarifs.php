@@ -16,19 +16,10 @@
         <header>
             <a href="index.html"><img  " src="images/logo2.png" alt="Logo du Citron Rose"></a>
         </header>
-
         
-        <nav>
-            <ul class="menuItems">
-               <a class="menu" href="index.html"><li>Accueil</li></a> 
-               <a class="menu" href="infrastructures.html"> <li>Infrastructures</li></a>
-               <a class="menu" href="equipe.html"><li>Equipe</li></a> 
-               <a class="menu" href="tarifs.html"><li>Tarifs</li></a> 
-               <a class="menu" href="contact.html"> <li>Contact</li></a>
-            </ul>
-        </nav>
+        <?php include("php/Menu.html"); ?>
 
-        <aside><a href="connexion.php" id="espace_membres"><img src="images/membre.png" alt="Espace membres"></a></aside>
+        <aside><a href="connexion.html" id="espace_membres"><img src="images/membre.png" alt="Espace membres"></a></aside>
 
         <p class="prezz">Les tarifs pour l'année 2021 :</p>
 

@@ -16,6 +16,28 @@
             <img class="connexion" src="images/logo2.png" alt="Logo Le Citron Rose">
         </div>
 
+        <style>
+            form {
+                text-align: center;
+            }
+        </style>
+
+        <form action="connexion_donnees.php" method="post">
+            
+                <label for="email">Email</label> : <br><input type="text" name="email" id="email" /><br />
+                <label for="motDePasseSaisi">Mot De Passe</label> :  <br><input type="password" name="motDePasseSaisi" id="motDePasseSaisi" /><br />
+                <input type="submit" value="Envoyer" />
+	        
+        </form>
+
+        <style>
+            p {
+                text-align: center;
+            }
+        </style>
+
+        <p>Pas encore membre ?<a href="inscription.html"> Inscription</a></p>
+
     </body>
 
 </html>

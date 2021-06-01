@@ -14,20 +14,10 @@
 
     <body>
         <header>
-            <a id="logo" href="index.html"><img  " src="images/logo2.png" alt="Logo du Citron Rose"></a>
+            <a id="logo" href="index.html"><img src="images/logo2.png" alt="Logo du Citron Rose"></a>
         </header>
         
-        <nav>
-            <ul>
-               <a class="menu" href="index.html"><li>Accueil</li></a> 
-               <a class="menu" href="infrastructures.html"> <li>Infrastructures</li></a>
-               <a class="menu" href="equipe.html"><li>Equipe</li></a> 
-               <a class="menu" href="tarifs.html"><li>Tarifs</li></a> 
-               <a class="menu" href="contact.html"> <li>Contact</li></a>
-            </ul>
-        </nav>
-        
-        <aside><a href="connexion.php" id="espace_membres"><img src="images/membre.png" alt="Espace membres"></a></aside>
+        <?php include("php/Menu.html"); ?>
 
         <p class="accroche">Le Citron Rose, coaching et salle de sport à Rennes.</p>
 
@@ -122,7 +112,7 @@
                 <p>12 rue Maréchal Foch</p>
                 <p>35000 RENNES</p>
                 <p>Tél. : 02.99.35.35.35</p>
-                <p>Mail : contact@lecitronrose.bzh</p>
+                <p>Mail : contact@leCitronrose.bzh</p>
             </div>
 
             <div class="carteFooter">
